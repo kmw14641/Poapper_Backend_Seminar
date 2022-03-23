@@ -1,0 +1,14 @@
+{
+    "name": "kmw14641",
+    "job": "student",
+    "age": 21,
+    "hobby": ["piano", "youtube", "game"],
+    "course_table": [
+        {"name": "데이터구조", "id": "CSED233"},
+        {"name": "디지털시스템설계", "id": "CSED273"},
+        {"name": "객체지향프로그래밍", "id": "CSED232"},
+        {"name": "과학과사회의통합적이해", "id": "HASS202"},
+        {"name": "전산수학", "id": "CSED261"},
+        {"name": "응용선형대수", "id": "MATH203"}
+    ]
+}
