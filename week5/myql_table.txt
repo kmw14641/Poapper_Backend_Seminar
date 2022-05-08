@@ -1,0 +1,7 @@
+CREATE TABLE foods(
+id INT(11) AUTO_INCREMENT,
+name VARCHAR(100) NOT NULL,
+kcal INT(11) NOT NULL,
+isVegan BOOL,
+PRIMARY KEY(id)
+);
