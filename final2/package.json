@@ -1,0 +1,16 @@
+{
+  "name": "gittest3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "heroku-prebuild": "npm install mysql && npm install cors",
+    "heroku-postbuild": "node index.js && cd client && npm run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "multer": "^1.4.5-lts.1"
+  }
+}
